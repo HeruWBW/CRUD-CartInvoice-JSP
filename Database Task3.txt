@@ -1,0 +1,23 @@
+CREATE TABLE Project3 (
+    ID int NOT NULL AUTO_INCREMENT,
+    Username varchar(25),
+    Password varchar(25),
+    Firstname varchar(25),
+    Lastname varchar(25),
+    Address varchar(25),
+    Phone int(20),
+    Email varchar(25),
+    PRIMARY KEY (ID)
+);
+
+create table Product(
+	id int(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+	id_produk varchar(25),
+	kd_produk varchar(25),
+	nm_produk varchar(25),
+	harga_produk varchar(25),
+	qty varchar(25)
+);
+
+INSERT INTO Product (id_produk, kd_produk, nm_produk, harga_produk, qty)
+VALUES ("123", "001", "indomie", "10.000", "2");
